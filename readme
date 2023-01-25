@@ -5,7 +5,7 @@ Sumar/Restar/Multiplicar/Dividir/Raiz n/Exponente n/(al menos 1)Seno,Coseno,Tang
 
 El programa acepta entradas/inputs
 
-    # Crear funcion con *args que reciba inputs (mensaje, num o mensaje, *args)
+    # Crear funcion que reciba inputs (mensaje, num o mensaje, *args, verificar)
 
 El programa siempre corra al menos que el usuario indique lo contrario (Ctrl + c no valido)
     # verificar
