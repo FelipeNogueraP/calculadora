@@ -1,4 +1,5 @@
 """ Funciones del programa, operaciones matematicas"""
+
 from math import sin, cos
 import numpy as np
 
