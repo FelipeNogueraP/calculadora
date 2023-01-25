@@ -24,6 +24,7 @@ def dividir(num1, num2):
     return resultado
 
 
+# Uso de Numpy
 def raiz(num1):
     arr = [num1]
     arr_sqrt = np.sqrt(arr)
@@ -35,11 +36,13 @@ def exponente(num1, num2):
     return resultado
 
 
+# Uso de Math
 def seno(num1):
     resultado = sin(num1)
     return resultado
 
 
+# Uso de Math
 def coseno(num1):
     resultado = cos(num1)
     return resultado

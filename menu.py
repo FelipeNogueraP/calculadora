@@ -85,7 +85,6 @@ def validador_seleccion(seleccion):
 
 def valor_incorrecto():
     print("El valor ingresado no es valido, intente de nuevo.")
-
     try:
         fix = llamar_menu()
         resultado = validador_seleccion(fix)
