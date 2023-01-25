@@ -1,0 +1,47 @@
+"El programa contiene un Menú de selección:
+Sumar/Restar/Multiplicar/Dividir/Raiz n/Exponente n/(al menos 1)Seno,Coseno,Tangente"
+    # Crear menu
+
+El programa acepta entradas/inputs
+
+    # Crear funcion con *args que reciba inputs (mensaje, num o mensaje, *args)
+
+El programa siempre corra al menos que el usuario indique lo contrario (Ctrl + c no valido)
+    # verificar
+
+Despues de selecccionar la operación a usar, el programa permite ingresar inputs para realizar la operación
+    # reusar la funcion de recibir inputs
+
+El programa debe utilizar, por lo menos, una librería (se recomienda utilizar numpy)
+    # Verificar el uso de numpy en el programa
+
+El programa debe tener una función principal que maneje el proceso principal de la calculadora
+    # crear el if __name__ == __"main"__:
+    # verificar
+
+El programa debe estar dividido en diferentes funciones para el manejo de las operaciones
+y funciones principales de la calculadora
+    # separar las funciones de aritmeticas a las del programa
+
+El programa debe contener al menos el uso de los siguientes elementos: listas y loops (for o while)
+    #poner while en el programa principal
+    # Verificar donde poner las listas, o array
+
+El programa debe subirse a través de la plataforma/repositorio de Github utilizando lo aprendido en
+el curso de Git. Debes crear tu propio repositorio para subir tu codigo
+
+    # Repositorio creado
+
+Debe tener dos ramas (`main` y `desarrollo`)
+    # Creada master y desarrollo
+    # cambiar el nombre a master
+
+Debe tener al menos 5 commits válidos en la rama "desarrollo" Github
+
+"Incluye los siguientes elementos: (15pts)
+- Código de python del programa (calculadora)
+- Carpeta con captura de pantallas
+    - Creación y cambio de rama con Git
+    - Al menos un commit que indiquen cambios significativos
+    - Al menos un push con los cambios a la rama de remote
+    - El merge final a la rama `master/main` desde la rama de desarrollo"
