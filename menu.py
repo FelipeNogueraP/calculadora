@@ -2,9 +2,12 @@
 
 import funciones as f
 
+# el menu puede cambiar por una constante
+# Escribir constantes en mayuscula toda la palabra
+# MENU = texto menu
 
-def menu():
-    print("""
+
+MENU = ("""
     ***************************************
     *        Menú Calculadora             *
     *                                     *
@@ -20,11 +23,36 @@ def menu():
     """)
 
 
-def llamar_menu():
-    menu()
-    print("Si desea detener el programa presione la tecla 'q'.")
+
+# revisar la division de responsabilidades
+
+
+def print_menu():
+    print(MENU, "Si desea detener el programa presione la tecla 'q'.")
+
+
+def read_input():
     seleccion = f.r_input("¿Que operación aritmetica desea realizar?: ")
     return seleccion
+
+
+
+def validate_selection(seleccion):
+    """Verify the option selected"""
+
+    return True
+# DEBE RETORNAR TRUE OR FALSE
+# in lista
+
+
+def select_operation(seleccion):
+
+    # first class citizen
+    return function
+
+def get_input():
+    # si toma un numero x y si toma dos numeros y
+
 
 
 def validador_seleccion(seleccion):
@@ -93,3 +121,13 @@ def valor_incorrecto():
         pass
 
     return resultado
+
+
+"""
+def validadorseleccion(seleccion):
+    switch = {
+        '1': f.sumar(float(f.rinput("Para Sumar, ingrese un primer número: ")), float(f.rinput("Ingrese el número a sumar: "))), 
+        '2': f.restar(float(f.rinput("Para Restar, ingrese un primer número: ")), float(f.rinput("Ingrese el número a restar: "))), 
+        '3': f.multiplicar(float(f.rinput("Para Multiplicar, ingrese un primer número: ")), float(f.rinput("Ingrese el número a multiplicar: "))),
+}
+"""

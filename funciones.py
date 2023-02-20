@@ -1,5 +1,9 @@
 """ Funciones del programa, operaciones matematicas"""
 
+# Funciones aritmeticas.- operaciones
+# verificar los docstrings de las funciones
+
+
 from math import sin, cos
 import numpy as np
 

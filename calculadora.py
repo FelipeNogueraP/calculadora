@@ -1,5 +1,6 @@
 """Programa principal de la Cacluladora."""
 import menu as m
+# No usar alias de no ser necesario.
 
 if __name__ == "__main__":
     while True:
